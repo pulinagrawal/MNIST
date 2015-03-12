@@ -103,6 +103,11 @@ public abstract class MnistDbFile extends RandomAccessFile {
         }
     }
 
+    /**
+     * Returns the number of images in this file
+     * @return number of images in the file
+     */
+    
     public int getCount() {
         return count;
     }
